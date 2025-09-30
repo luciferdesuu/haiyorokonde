@@ -28,7 +28,7 @@ def get_gemini_response(prompt, persona_instructions):
 
 def main():
     st.title("Urban Fantasy RPG (better title pending)")
-    st.image("lucifer.png", caption= "Welcome to my domain. (artwork by me!)")
+    #st.image("lucifer.png", caption= "Welcome to my domain. (artwork by me!)")
 
     with st.sidebar:
         st.title("Options")
