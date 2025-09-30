@@ -44,7 +44,7 @@ def main():
 
 
         user_emoji = "💀"
-        robot_img = "lucifer.png"
+        robot_img = "🤖"
 
     
     initialize_session_state()
