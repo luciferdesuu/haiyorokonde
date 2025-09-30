@@ -4,7 +4,6 @@ import google.generativeai as genai
 
 # Configure Gemini API
 GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
-GOOGLE_API_KEY = "AIzaSyBWAHGD4MleqMNPYUBHooOy86PiH2M9GlQ"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
@@ -29,7 +28,7 @@ def get_gemini_response(prompt, persona_instructions):
 
 def main():
     st.title("Urban Fantasy RPG (better title pending)")
-    st.image("Lucifer.png", caption= "Welcome to my domain.")
+    st.image("lucifer.png", caption= "Welcome to my domain.")
 
     with st.sidebar:
         st.title("Options")
@@ -45,7 +44,7 @@ def main():
 
 
         user_emoji = "💀"
-        robot_img = "Lucifer.png"
+        robot_img = "lucifer.png"
 
     
     initialize_session_state()
